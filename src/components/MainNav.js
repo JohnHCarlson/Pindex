@@ -32,6 +32,11 @@ const MainNav = () => {
                 About
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link as={Link} to="/stats">
+                Stats
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
           <Nav>
             <Nav.Link href="https://twitter.com" target="_blank">
