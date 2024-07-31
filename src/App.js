@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Search from './pages/Search';
 import About from './pages/About';
+import Stats from './pages/Stats';
 import NavBar from './components/MainNav';
 
 import './App.css';
@@ -34,6 +35,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/search" element={<Search />} />
           <Route path="/about" element={<About />} />
+          <Route path="/stats" element={<Stats />} />
           <Route path="/pin" element={<PinCard pin={dummyPin} />} />
         </Routes>
       </div>
